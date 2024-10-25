@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Misión del Museo Perdido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>La Misión del Museo Perdido</h1>
+            <p>Encuentra el legendario Artefacto de los Tiempos y escapa del museo.</p>
+            <button id="start-button">Comienza tu Misión</button>
+        </div>
+
+        <div id="game-screen" style="display: none;">
+            <h2 id="room-title"></h2>
+            <p id="room-description"></p>
+            <input type="text" id="answer-input" placeholder="Escribe tu respuesta">
+            <button id="submit-answer">Enviar</button>
+            <p id="hint"></p>
+        </div>
+
+        <div id="end-screen" style="display: none;">
+            <h1>¡Felicidades!</h1>
+            <p>Has encontrado el artefacto y escapado del museo.</p>
+            <button id="restart-button">Jugar de Nuevo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
